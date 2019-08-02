@@ -1,0 +1,10 @@
+{% capture siteTitle %}
+  {% if slug == '.' %}
+  <h1 class="site-title"><a href="/">{{ site.title }}</a></h1>
+  {% else %}
+  <p class="site-title"><a href="/">{{ site.title }}</a></p>
+  {% endif %}
+{% endcapture %}
+<header>
+  {{ siteTitle }}
+</header>

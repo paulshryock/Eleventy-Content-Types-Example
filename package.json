@@ -1,0 +1,36 @@
+{
+  "name": "eleventy-content-types-example",
+  "version": "1.0.0",
+  "description": "This is how I create many content types in Eleventy.",
+  "scripts": {
+    "start": "npm run build",
+    "test": "npm run debug",
+    "clean": "if [ -d build ]; then rm -R build; fi",
+    "prebuild": "npm run clean",
+    "build": "npm run eleventy",
+    "debug": "npm run eleventy:debug",
+    "watch": "npm run eleventy:watch",
+    "serve": "npm run eleventy:serve",
+    "eleventy": "npx eleventy",
+    "eleventy:debug": "DEBUG=Eleventy* npm run eleventy --dryrun",
+    "eleventy:watch": "npx eleventy --watch",
+    "eleventy:serve": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulshryock/Eleventy-Content-Types-Example.git"
+  },
+  "author": {
+    "name": "Paul Shryock",
+    "email": "paul@pshry.com",
+    "url": "https://pshry.com/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulshryock/Eleventy-Content-Types-Example/issues"
+  },
+  "homepage": "https://github.com/paulshryock/Eleventy-Content-Types-Example#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3"
+  }
+}

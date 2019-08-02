@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {% include seotitle %}
+  {% include styles %}
+</head>
+<body class="site {% if contentType %}{{ contentType }}{% endif %}">
+  {% include header %}
+  {% include navigation %}
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>

@@ -1,0 +1,4 @@
+  {% capture seoTitle %}
+    {% if slug != '.' %}{{ title }} | {% endif %}{{ site.title }}
+  {% endcapture %}
+  <title>{{ seoTitle }}</title>
