@@ -23,6 +23,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Style site description (`/css/site.css`)
 - Add content dates for chronological post order
 
+### Changed
+- Update content permalinks
+
 ## 1.0.0 - 2019-08-02 - Initial release
 
 ### Added
