@@ -20,8 +20,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Add screenshot (`screenshot.png`)
 - Add site description (`/_data/site.js`, `/_includes/header.liquid`)
-- Style site description (`/css/site.css`)
+- Add more styles: (`/src/css/*.css`)
 - Add content dates for chronological post order
+- Add home page layout (`/src/_layouts/home.liquid`)
+- Add footer include: (`/src/_includes/footer.liquid`)
 
 ### Changed
 - Update content permalinks

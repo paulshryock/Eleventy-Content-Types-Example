@@ -12,6 +12,18 @@ html {
   box-sizing: inherit;
 }
 
+p,
+ul {
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+}
+
 .site {
   font-family: sans-serif;
   margin: 0 auto;
@@ -21,6 +33,7 @@ html {
 .site-title {
   font-size: 2em;
   font-weight: bold;
+  line-height: 1.2;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
@@ -30,6 +43,7 @@ html {
 .site-description {
   color: gray;
   font-style: italic;
+  line-height: 1.2;
 }
 
 .navigation ul {
@@ -42,6 +56,11 @@ html {
 .navigation a {
   display: inline-block;
   padding: 0.5em;
+}
+
+.more-content {
+  margin-block-start: 2em;
+  margin-block-end: 2em;
 }
 
 .posts {
@@ -67,4 +86,9 @@ html {
 .blockquote p:first-of-type::before,
 .blockquote p:last-of-type::after {
   content: '"';
+}
+
+.copyright {
+  color: gray;
+  font-style: italic;
 }
