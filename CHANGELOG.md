@@ -15,6 +15,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 -->
 
+## 1.1.0 - 2019-XX-XX - RELEASE_TITLE
+
+### Added
+- Add screenshot (`screenshot.png`)
+
 ## 1.0.0 - 2019-08-02 - Initial release
 
 ### Added
