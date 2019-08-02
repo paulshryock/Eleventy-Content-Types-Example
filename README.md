@@ -12,3 +12,5 @@ This is how I create many content types in Eleventy.
 - Add includes: (`/src/_includes/*.liquid`)
 - Add styles: (`/src/css/*.css`)
 - Add Passthrough file copy (`.eleventy.js`)
+
+![Screenshot](https://raw.githubusercontent.com/paulshryock/Eleventy-Content-Types-Example/master/screenshot.png)
