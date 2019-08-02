@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add screenshot (`screenshot.png`)
 - Add site description (`/_data/site.js`, `/_includes/header.liquid`)
 - Style site description (`/css/site.css`)
+- Add content dates for chronological post order
 
 ## 1.0.0 - 2019-08-02 - Initial release
 

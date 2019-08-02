@@ -1,10 +1,10 @@
 ---
 layout: global
 ---
-<article>
-  <header>
-    <h2>{{ title }}</h2>
-    <p>Last updated: {{ page.date | date: "%m/%d/%Y" }}</p>
+<article class="post">
+  <header class="post__header">
+    <h2 class="post__title">{{ title }}</h2>
+    <p class="post__meta">Last updated: {{ page.date | date: "%m/%d/%Y" }}</p>
   </header>
   {{ content }}
 </article>

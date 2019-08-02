@@ -1,6 +1,7 @@
 ---
 title: 'Testimonial 3'
 slug: testimonial-3
+date: 2019-01-03T00:00:00-5
 ---
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
 
