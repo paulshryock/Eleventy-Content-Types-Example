@@ -27,6 +27,11 @@ html {
   margin-inline-end: 0px;
 }
 
+.site-description {
+  color: gray;
+  font-style: italic;
+}
+
 .navigation ul {
   display: flex;
   list-style: none;
