@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 -->
 
-## 1.0.0 - 2019-08-01 - Initial release
+## 1.0.0 - 2019-08-02 - Initial release
 
 ### Added
 - Add Changelog, Gitattributes, Gitignore, License, Readme
@@ -30,9 +30,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add includes: (/src/\_includes/\*.liquid)
 - Add styles: (/src/css/\*.css)
 - Add Passthrough file copy (.eleventy.js)
-
-### Changed
-### Deprecated
-### Removed
-### Fixed
-### Security
