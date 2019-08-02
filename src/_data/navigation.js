@@ -10,8 +10,8 @@ module.exports = function () {
         'slug': 'articles'
       },
       {
-        'title': 'Projects',
-        'slug': 'projects'
+        'title': 'Portfolio',
+        'slug': 'portfolio'
       },
       {
         'title': 'Testimonials',

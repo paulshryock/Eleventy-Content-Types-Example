@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Update content permalinks
+- Update navigation permalink
 
 ## 1.0.0 - 2019-08-02 - Initial release
 
