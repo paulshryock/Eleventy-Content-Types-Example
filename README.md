@@ -29,45 +29,45 @@ This is how I create many content types in Eleventy.
   
 - Add content collections: pages, articles, projects, testimonials (`.eleventy.js`)
 
-```javascript
-module.exports = function(eleventyConfig) {
-  
-  /**
-    * Add collections
-    */
-  
-  // Return pages
-  eleventyConfig.addCollection("pages", function(collection) {
-    return collection.getAll().filter(function(item) {
-      return item.data.contentType == "page";
+  ```javascript
+  module.exports = function(eleventyConfig) {
+
+    /**
+      * Add collections
+      */
+
+    // Return pages
+    eleventyConfig.addCollection("pages", function(collection) {
+      return collection.getAll().filter(function(item) {
+        return item.data.contentType == "page";
+      });
     });
-  });
-  
-  // Return articles
-  eleventyConfig.addCollection("articles", function(collection) {
-    return collection.getAll().filter(function(item) {
-      return item.data.contentType == "article";
+
+    // Return articles
+    eleventyConfig.addCollection("articles", function(collection) {
+      return collection.getAll().filter(function(item) {
+        return item.data.contentType == "article";
+      });
     });
-  });
-  
-  // Return projects
-  eleventyConfig.addCollection("projects", function(collection) {
-    return collection.getAll().filter(function(item) {
-      return item.data.contentType == "project";
+
+    // Return projects
+    eleventyConfig.addCollection("projects", function(collection) {
+      return collection.getAll().filter(function(item) {
+        return item.data.contentType == "project";
+      });
     });
-  });
-  
-  // Return testimonials
-  eleventyConfig.addCollection("testimonials", function(collection) {
-    return collection.getAll().filter(function(item) {
-      return item.data.contentType == "testimonial";
+
+    // Return testimonials
+    eleventyConfig.addCollection("testimonials", function(collection) {
+      return collection.getAll().filter(function(item) {
+        return item.data.contentType == "testimonial";
+      });
     });
-  });
-  
-  // ...
-  
-};
-```
+
+    // ...
+
+  };
+  ```
 
 - Add content: pages, articles, projects, testimonials (`/src/*/*.md`)
 
